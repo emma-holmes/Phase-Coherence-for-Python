@@ -1,4 +1,4 @@
-# Phase-Coherence-for-MATLAB
+# Phase-Coherence-for-Python
 Function to calculate consistency of phase at a given frequency across measurements
 
 ## About the method
