@@ -15,13 +15,13 @@ This method could be applied to examine patterns in time-series data other than 
 
 ## Getting started
 ### Prerequisites
-The code was written using MATLAB 2014b, although uses basic MATLAB functions that are compatible with older and newer versions of MATLAB. No additional toolboxes are required.
+The code was written using using Python 3.6.1. The code requires numpy.
 
-### Running the MATLAB script
-The MATLAB code is contained within the following file: [PhaseCoherence.m](PhaseCoherence.m)
+### Running the Python script
+The Python code is contained within the following file: [PhaseCoherence.py](PhaseCoherence.py)
 
 The script takes three inputs:
-1) freq - this is a value indicating the frequency to be analysed, in Hertz, e.g. 50.
+1) freq - this is a floating point value indicating the frequency to be analysed, in Hertz, e.g. 50.
 2) timeSeries - this is the data to be analysed; should be a 2-dimensional matrix of size: (number of trials/measurements) x (number of time points)
 3) FS - this is the sampling rate of the time-series data, in Hertz, e.g. 1000.
 
@@ -30,6 +30,9 @@ The code can be run as follows:
 PC = PhaseCoherence(freq, timeSeries, FS)
 ```
 The output from the script is a floating-point value between 0 and 1.
+
+### Note for MATLAB users
+There are two versions of the code, which perform the same computations and output: one for MATLAB and one for Python 3. The MATLAB code can be found in a separate repository: [Phase-Coherence-for-MATLAB](https://github.com/emma-holmes/Phase-Coherence-for-MATLAB)
 
 ## License
 
