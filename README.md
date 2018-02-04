@@ -36,4 +36,6 @@ There are two versions of the code, which perform the same computations and outp
 
 ## License
 
-This project is licensed under the MIT License; see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License; see the [LICENSE](LICENSE) file for details.
+
+This project can be cited using the following DOI: [![DOI](https://zenodo.org/badge/99174347.svg)](https://zenodo.org/badge/latestdoi/99174347)
